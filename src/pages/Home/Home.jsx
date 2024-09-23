@@ -148,7 +148,6 @@ const Home = () => {
     getUserInfo();
   }, []);
 
-  if(!userInfo) navigate("/login");
 
   return (
     <>
